@@ -1,0 +1,82 @@
+.container {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+
+  width: 100vw;
+  height: 100svh;
+}
+
+.container h3 {
+  font-size: 30px;
+  text-transform: capitalize;
+}
+
+.status {
+  position: absolute;
+  top: 100px;
+
+  padding: 20px;
+
+  border: 1px solid #ccc;
+  border-radius: 10px;
+
+  text-align: center;
+}
+
+.container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+
+  width: 400px;
+  height: 300px;
+
+  padding: 20px;
+
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.container label {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  width: 100%;
+
+  font-weight: bold;
+}
+
+.container label input[type="email"],
+.container label input[type="password"] {
+  height: 40px;
+
+  padding: 0 10px;
+
+  border: none;
+  border-radius: 10px;
+}
+
+.container input[type="submit"] {
+  padding: 10px 30px;
+
+  border: none;
+  border-radius: 10px;
+
+  font-size: 15px;
+
+  cursor: pointer;
+}
+
+.container a {
+  color: blue;
+
+  text-decoration: underline;
+}
